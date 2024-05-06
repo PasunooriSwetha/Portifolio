@@ -1,0 +1,107 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.photo{
+  width:200px;
+  height:200px;
+  border-radius:1000px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style-type:none;
+  padding:0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  text-align:center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  text-decoration:underline;
+}
+section{
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  text-align:center;
+}
+
+h1, h2 {
+  color: black;
+  text-align:center;
+}
+
+
+
+.skills-group {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.skills-group  {
+  list-style-type: none;
+  padding: 0;
+}
+ul li{
+  color: black; /* White color */
+    margin-bottom: 10px;
+}
+
+ul li:before {
+    content: "\2022"; /* Bullet character */
+    color: black; /* White color */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+
+}
+
+.skills-group  li {
+  background-color: palevioletred;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+#Home{
+  background-color: lightcoral;
+  padding:380px;
+}
+#About{
+  background-color:lightseagreen;
+}
+#projects{
+  background-color: lightsalmon;
+}
+#achievements{
+  background-color: pink;
+}
+#contact {
+  background-color: lightgreen;
+}
+#projects h2, #achievements h2, #contact h2 {
+  color: black;
+}
